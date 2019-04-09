@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <title>Spring Boot CLI Example</title>
+    <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8" />
+</head>
+
+<body>
+<p th:text = "'Name: ' + ${profile.name}" />
+<p th:text = "'Address: ' + ${profile.address}" />
+<p th:text = "'Job Role: ' + ${profile.jobRole}" />
+<p th:text = "'Experience: ' + ${profile.experience}" />
+<p th:text = "'Description: ' + ${profile.description}" />
+</body>
+</html>
